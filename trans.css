@@ -1,0 +1,183 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.tit{
+    background-color: rgb(40 40 40);
+    color: rgb(161, 158, 158);
+    padding: 30px;
+    
+}
+.top,.side,.home{
+    display: inline;
+}
+.top{
+    margin-left: 41%;
+}
+.home{
+    padding-right: 10px;
+}
+.homeimg{
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+.homeimg:hover{
+    background-color: rgb(220, 220, 220);
+    transition: background-color 0.3s ease;
+}
+.center{
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:auto;
+    width: 600px;
+    height: 340px;
+    background-color: white;
+    text-align: center;
+    /*border:1px solid #dfd6d6;
+    border-radius: 5px;
+    border-style: solid;*/
+    border: 2px solid #333; /* Dark border around the div */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a dark shadow effect */
+    background-color: #f9f9f9;
+}
+
+.feat{
+    margin-top: 100px;
+    text-align: center;
+    margin: 45px;
+    display: inline;
+    width: 198.2px;
+    border-color: black;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+.inp{
+    background-color: rgb(40, 40, 40);
+    color: rgb(161, 158, 158);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 150px;
+    width: 200px;
+    text-align: left;
+    white-space: normal;
+    overflow: auto;
+    resize: none;
+    border: 0px solid rgb(40 40 40);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.opt{
+    background-color: rgb(40, 40, 40);
+    color: rgb(161, 158, 158);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 150px;
+    width: 200px;
+    text-align: left;
+    white-space: normal;
+    overflow: auto;
+    resize: none;
+    border: 0px solid rgb(40 40 40);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.but {
+    font-family: "Trebuchet MS", sans-serif;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    /*font-family: "Times New Roman", Times, serif;*/
+    background-color: rgb(40, 40, 40);
+    color: rgb(161, 158, 158);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+    overflow: hidden; /* Ensure overflow is hidden for pseudo-element */
+}
+/*
+.but::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0); 
+    transition: left 0.5s ease; 
+    z-index: -1; 
+}
+*/
+.but:hover{
+    color: black;
+    background-color: rgb(220, 220, 220);
+}
+.change{
+    text-align: center;
+}
+.txtarea,.in,.op{
+    display: inline;
+}
+
+
+.insel,.opsel{
+    margin-top: 150px;
+    display: inline;
+}
+.ourlang{
+    margin-right: 120px;
+    border:1px solid #dfd6d6;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(40 40 40); 
+    color: rgb(161, 158, 158);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.ourlang:hover {
+    background-color: rgb(220, 220, 220); 
+    color: #000; 
+}
+.ourlang:hover li {
+    transform: translateX(100px); 
+    transition: transform 0.3s ease; 
+}
+.desiredlang{   
+    border:1px solid #dfd6d6;
+    border-radius: 50px;
+    border-style: solid;
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 10px;
+    background-color: rgb(40 40 40); 
+    color: rgb(161, 158, 158);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.desiredlang:hover {
+    background-color: rgb(220, 220, 220); 
+    color: #000; 
+}
+.description1{
+    padding: 5px;
+    color: rgb(40, 40, 40);
+    font-family: "Trebuchet MS", sans-serif;
+    margin-right: auto;
+    display: inline-block;
+}
+.des2{
+    color: rgb(40, 40, 40);
+    padding: 5px; 
+    font-family: "Trebuchet MS", sans-serif;
+    margin-left: 50px;
+    display: inline-block;
+}

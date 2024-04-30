@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(161, 158, 158); /* Change color */
+}
+a:hover{
+    color: black;
+}
+.header{
+    color: white;
+}
+.tit{
+    /*background-image: linear-gradient(to top, #800080,  #4B0082);*/
+    background-color: rgb(40 40 40);
+    color: rgb(161, 158, 158);
+    padding: 30px;
+    text-align: center;
+    
+}
+.top,.side,.reg,.sign{
+    display: inline;
+}
+.top{
+    font-family: Georgia, serif;
+}
+.reg:hover{
+    color:white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.sign:hover{
+    color:white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.center{
+    margin-left:auto;
+    /*margin-top:10px;*/
+    margin-bottom:50px;
+    margin-right:auto;
+    width: 500px;
+    /*height: 500px;*/
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 10px;
+    /*border:1px solid #dfd6d6;
+    border-radius: 5px;
+    border-style: solid;*/
+    border: 2px solid #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    background-color: #f9f9f9;
+    
+}
+.servicelist{
+    list-style-type: none;
+    padding : 30%;
+    text-align: center;
+}
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(245, 245, 245); /* Light solverish white */
+}
+
+.feat {
+    margin-top: 10px;
+    border:1px solid #dfd6d6;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 20px;
+    background-color: rgb(40 40 40); 
+    color: rgb(161, 158, 158);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+}
+
+.feat:hover {
+    background-color: rgb(220, 220, 220); 
+    color: #000; 
+}
+
+.feat h4 {
+    margin: 0;
+}
+
+.feat img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.feat:hover h4 {
+    transform: translateX(10px); /* Slide text content to the right on hover */
+    transition: transform 0.3s ease; /* Transition for text slide animation */
+}
+.contact{
+    padding:30px;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+}

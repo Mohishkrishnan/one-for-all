@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+.tit{
+    background-color: rgb(40 40 40);
+    color: rgb(161, 158, 158);
+    padding: 30px;
+    
+}
+.top,.side,.home{
+    display: inline;
+}
+.top{
+    margin-left: 41%;
+}
+.home{
+    padding-right: 10px;
+}
+.homeimg{
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+.homeimg:hover{
+    background-color: rgb(220, 220, 220);
+    transition: background-color 0.3s ease;
+}
+.center{
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:auto;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+   /* text-align: center;*/
+    /*border:1px solid #dfd6d6;
+    border-radius: 5px;
+    border-style: solid;*/
+    border: 2px solid #333; /* Dark border around the div */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a dark shadow effect */
+    background-color: #f9f9f9;
+}
+.txtarea{
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 30px;
+}
+.opbox{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 520px;
+    height: 155px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    white-space: normal;
+    overflow: auto;
+    resize: none;
+    border: 0px solid rgb(40 40 40);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.butbox{
+    text-align: center;
+}
+.playbut{
+    margin-top: 40px;
+    margin-right: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 20px;
+    background-color: rgb(40, 40, 40);
+    color: rgb(161, 158, 158);
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+    overflow: hidden; /* Ensure overflow is hidden for pseudo-element */
+}
+.playbut:hover{
+    color: black;
+    background-color: rgb(220, 220, 220);
+}

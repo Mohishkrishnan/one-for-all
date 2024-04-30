@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+.tit{
+    background-color: rgb(40 40 40);
+    color: rgb(161, 158, 158);
+    padding: 30px;
+    
+}
+.top,.side,.home{
+    display: inline;
+}
+.top{
+    margin-left: 41%;
+}
+.home{
+    padding-right: 10px;
+}
+.homeimg{
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+.homeimg:hover{
+    background-color: rgb(220, 220, 220);
+    transition: background-color 0.3s ease;
+}
+.center{
+    margin-left:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:auto;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+   /* text-align: center;*/
+    /*border:1px solid #dfd6d6;
+    border-radius: 5px;
+    border-style: solid;*/
+    border: 2px solid #333; /* Dark border around the div */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a dark shadow effect */
+    background-color: #f9f9f9;
+}
+.inpspeech{
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    padding:30px;
+    /*margin-top: 10px;*/   
+}
+.outspeech{
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    padding:30px;
+    margin-bottom: 10px;
+}
+.selectbox{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: small;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border: 0px solid rgb(40 40 40);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.selectbox:hover{
+    cursor: pointer;
+    background-color: rgb(220, 220, 220); 
+    color: #000; 
+}
+.selectbox:hover li {
+    transform: translateX(100px); 
+    transition: transform 0.3s ease; 
+}
+.conbut {
+    font-family: "Trebuchet MS", sans-serif;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    /*font-family: "Times New Roman", Times, serif;*/
+    background-color: rgb(40, 40, 40);
+    color: rgb(161, 158, 158);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for background and text color */
+    overflow: hidden; /* Ensure overflow is hidden for pseudo-element */
+}
+.conbut:hover{
+    color: black;
+    background-color: rgb(220, 220, 220);
+}
+
+.output{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 520px;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 25px;
+    text-align: left;
+    white-space: normal;
+    overflow: auto;
+    resize: none;
+    border: 0px solid rgb(40 40 40);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

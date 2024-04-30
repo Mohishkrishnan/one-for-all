@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPEECH-TO-SPEECH</title>
+    <link rel="stylesheet" href="speech-to-speech.css">
+</head>
+<body style="background-color: rgb(245, 245, 245);">
+    <div class="header">
+        <nav class="tit">
+            <li class="side">
+                <ul class="home"><a href="index.html"><img src="homelogo.png" class="homeimg" style="width: 25px;"></a></ul>
+            </li>
+            <h1 class="top">SPEECH-TO-SPEECH</h1>
+        </nav>
+    </div>
+
+    <div class="center">
+        <div class="inpspeech">
+            <h4 for="selectInputLanguage">Select Input Language</h4>
+            <select name="" id="selectInputLanguage" class="selectbox"></select>
+            <textarea id="output" class="output" placeholder="Output Text"></textarea>
+        </div>
+        <div class="outspeech">
+            <h4 for="selectOutputLanguage">Select Output Language</h4>
+            <select name="" id="selectOutputLanguage" class="selectbox"></select>
+        </div>
+        <button id="startSpeech" class="conbut">START SPEECH RECOGNITION</button>
+        <button id="conbut" class="conbut">CONVERT TO DESIRED LANGUAGE</button>
+        <!--<div id="output" class="output"></div>-->
+        <br>
+        <br>
+    </div>
+
+    <script src="speechtranslate.js"></script>
+</body>
+</html>
